@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spa</title>
+    <link rel="stylesheet" href="static/spa.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Spa</a>
+            <nav class="navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="button-container">
+                    <button class="button">
+                        <a href="#"><img src="#" alt="Ayurveda Treatment"></a>
+                    </button>
+                    <button class="button">
+                        <a href=""><img src="#" alt="Massage Treatment"></a>
+                    </button>
+                    <button class="button">
+                        <a href=""><img src="#" alt="Facial Treatment"></a>
+                    </button>
+
+                </div>
+            </div>
+        </section>
+        <section class="card-section">
+
+            <div class="card" style="width: 18rem;">
+                <img src="static/ayurveda.jpg" class="card-img-top" alt="ayurveda">
+                {% for info in data %}
+                <div class="card-body">
+                    {% if info['package_id'] == 100 %}
+                    <h5 class="card-title">{{ info['package_name'] }}</h5>
+                    <p class="card-text">{{ info['package_front_description'] }}</p>
+                    
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                {% endif %}
+                {% endfor %}
+                
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="static/massage.jpg" class="card-img-top" alt="massage">
+                {% for info in data %}
+                <div class="card-body">
+                    {% if info['package_id'] == 200 %}
+                    <h5 class="card-title">{{ info['package_name'] }}</h5>
+                    <p class="card-text">{{ info['package_front_description'] }}</p>
+                    
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                {% endif %}
+                {% endfor %}
+                
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img src="static/facial.jpg" class="card-img-top" alt="facial">
+                {% for info in data %}
+                <div class="card-body">
+                    {% if info['package_id'] == 300 %}
+                    <h5 class="card-title">{{ info['package_name'] }}</h5>
+                    <p class="card-text">{{ info['package_front_description'] }}</p>
+                    
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+                {% endif %}
+                {% endfor %}
+                
+            </div>
+
+        </section>
+        <section class="about-us">
+            <div class="container">
+                <h2>About Us</h2>
+                <p class="about-us-text">Urban Company is a technology platform offering a variety of services at home.
+                    Customers use our platform to book services such as beauty treatments, haircuts, massage therapy,
+                    cleaning, plumbing, carpentry, appliance repair, painting etc. These services are delivered in the
+                    comfort of their home and at a time of their choosing. We promise our customers a high quality,
+                    standardised and reliable service experience. To fulfill this promise, we work closely with our
+                    hand-picked service partners, enabling them with technology, training, products, tools, financing,
+                    insurance and brand, helping them succeed and deliver on this promise.
+                    Our Vision: Empower millions of professionals worldwide to deliver services at home like never
+                    experienced before</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">© 2024 Urban Company. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

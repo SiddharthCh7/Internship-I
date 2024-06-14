@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Black text color */
+  }
+  
+  form {
+    margin: 2rem auto; /* Add some margin for the form */
+    max-width: 300px; /* Set a maximum width for the form */
+    padding: 1rem; /* Add some padding inside the form */
+    border: 1px solid #ddd; /* Light gray border around the form */
+    border-radius: 4px; /* Rounded corners for the form */
+  }
+  
+  .form-label {
+    font-weight: bold; /* Make labels bold for better visibility */
+  }
+  
+  .form-control,
+  .form-check-input {
+    background-color: #fff; /* White background for input fields and checkbox */
+    border: 1px solid #ccc; /* Light gray border for input fields and checkbox */
+    border-radius: 4px; /* Rounded corners for input fields and checkbox */
+  }
+  
+  .form-check-input {
+    margin-right: 1rem; /* Add some space between checkbox and label */
+  }
+  
+  .btn-primary {
+    background-color: #333; /* Black background for submit button */
+    color: #fff; /* White text color for submit button */
+    border-color: #333; /* Black border for submit button */
+    border-radius: 4px; /* Rounded corners for submit button */
+  }
+  
+  .btn-primary:hover {
+    background-color: #222; /* Darker black on hover for submit button */
+  }
+  
