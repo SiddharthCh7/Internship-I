@@ -1,0 +1,11 @@
+service_id,service_name,package_id,price,service_duration,warranty_id,segmentation_type_id
+1524,"Hair cut & spa",505,1649,105,0,11163
+1525,"Hair spa & style",506,1499,105,0,11163
+1526,"Cut & botox/keratin",507,5249,225,0,11163
+1527,"Blow dry: Straight & Smooth",508,399,45,0,11163
+1528,"Blow dry: In curl/Out curl",509,399,45,0,11163
+1529,"3 styling services",511,1199,120,0,11163
+1530,"4 styling services",511,1599,105,0,11163
+1531,"5 styling services",511,1999,200,0,11163
+1532,"Hair trim",512,499,20,0,11163
+1533,Straightening,510,499,45,0,11163

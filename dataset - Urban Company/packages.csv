@@ -1,0 +1,11 @@
+package_id,package_name,package_front_description,package_image_description,segmentation_type_id,faq,subcategory_id
+505,"Hair spa & cut","Hair cut, strenghtning spa and repair mask",[],11163,"{"Is the service safe and hygenic?" : Our professionals are fully vaccinated and wear mask throughout the service, ensuring utmost safety.",24
+506,"Hair spa & style","Lo'real hair spa, keratin hair spa and repair mask",[],11163,"{"Who are the UC professionals aassinged for this service?" : We have both male and female professionals. All professionals come with 5+ years of experience from reputed salons such as Lakme, Naturals etc.",24
+507,"Cut & Box/Keratin","Keratin, Haircut & blowdry",[],11163,"{"Who are the UC professionals aassinged for this service?" : We have both male and female professionals. All professionals come with 5+ years of experience from reputed salons such as Lakme, Naturals etc.",24
+508,Blow-dry,"Straight and smooth",[],11163,"{"When will the professionals be assigned for the service?" : A professional will be assigned 60 minutes prior to the service if the booking is made at least 2 hours prior to the service.",24
+509,Blow-dry,In-curl/Out-curl,[],11163,"{"When will the professionals be assigned for the service?" : A professional will be assigned 60 minutes prior to the service if the booking is made at least 2 hours prior to the service.",24
+510,Straightening,"Sleek, frizz-free striaghtness with a high end professional straightener",[],11163,"{"Do I need to provide any equipment?" : The professional will bring all the equipment.",24
+511,"Wedding ready group styling package","Minimum of 3 hair styling services.",[],11163,"{"Do I need to provide any equipment?" : The professional will bring all the equipment.",24
+512,"Hair trim","Remove split end with minimal length reduction",[],11163,"{"Do I need to provide any equipment?" : The professional will bring all the equipment.",24
+513,"Ayurvedic straightening spa","Hydrate scalp with neem and aloe vera for frizz free hair.",[],11164,"{"Do I need to provide any equipment?" : The professional will bring all the equipment.",24
+514,"Hair botox","Single-session treatment to repair damage, frizzy hair & promote healthy scalp.",[],11164,"{"Do I need to provide any equipment?" : The professional will bring all the equipment.",24
